@@ -6,6 +6,7 @@ function cube() {
  num.value = Math.pow(num.value, 3);
 }
 
+
 function sine() {
  var num = document.getElementById("n1");
  num.value = Math.sin(num.value);
@@ -13,6 +14,10 @@ function sine() {
 function cuarta() {
  var num = document.getElementById("n1");
  num.value = Math.pow(num.value, 4);
+}
+function cuadrado() {
+ var num = document.getElementById("n1");
+ num.value = Math.pow(num.value, 2);
 
 }
 </script>
@@ -26,10 +31,14 @@ function cuarta() {
  </p>
  <p>
 
+
  <button onclick="sine()"> seno(x) </button>
 </p>
 <p>
  <button onclick="cuarta()"> x^4 </button>
+</p>
+<p>
+ <button onclick="cuadrado()"> x^2 </button>
 
  </p>
 </body>
