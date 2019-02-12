@@ -20,6 +20,10 @@ function cuadrado() {
  num.value = Math.pow(num.value, 2);
 
 }
+function inverse() {
+ var num = document.getElementById("n1");
+ num.value = parseFloat(1/num.value);
+}
 </script>
 </head>
 <body>
@@ -40,6 +44,9 @@ function cuadrado() {
 <p>
  <button onclick="cuadrado()"> x^2 </button>
 
+ </p>
+ <p>
+ <button onclick="inverse()"> 1/x </button>
  </p>
 </body>
 </html>
